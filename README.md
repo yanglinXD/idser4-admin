@@ -1,12 +1,14 @@
-# idser4-admin
+# IdentityServer
+
+> idser4-admin-ui 的服务端。
 
 ## 安装客户端依赖包
 
 ```sh
-cd src/Skoruba.IdentityServer4.Admin
+cd Skoruba.IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin
 yarn
 
-cd src/Skoruba.IdentityServer4.STS.Identity
+cd Skoruba.IdentityServer4.Admin/src/Skoruba.IdentityServer4.STS.Identity
 yarn
 ```
 
@@ -74,7 +76,3 @@ yarn
   - Skoruba.IdentityServer4.Admin.Api.IntegrationTests -- API 的集成测试
   - Skoruba.IdentityServer4.Admin.UnitTests -- 管理界面的单元测试
   - Skoruba.IdentityServer4.STS.IntegrationTests -- 身份认证的集成测试
-
-## 其他
-
-[查看更多](./Skoruba.IdentityServer4.Admin.md)
